@@ -1,0 +1,72 @@
+name: build PWA app
+
+on:
+  push:
+    branches: [ master ]
+    
+env:
+    target_branch: gh-pages
+
+jobs:
+  update_gh-page:
+    env:
+      source_path: source
+      page_path: page
+      build_path: build
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v2
+      with:
+        path: ${{ env.source_path }}
+
+    - name: Cache node modules
+      uses: actions/cache@v1
+      env:
+        cache-name: cache_node-modules
+        hash_file: ${{ env.source_path }}/package-lock.json
+      with:
+        path: ${{ env.source_path }}/node_modules          
+        key: npm-build-${{ env.cache-name }}-${{ hashFiles(env.hash_file) }}
+
+    - name: setup node Version ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    
+    - name: build angular app
+      run: |
+        npm install --prefix $source_path
+        npm run build --prefix $source_path -- --prod --aot --output-hashing="all" --base-href="/$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)/" --output-path="$build_path"
+    
+    - name: Checkout ${{ env.target_branch }} branch
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ env.target_branch }}
+        path: ${{ env.page_path }}
+    
+    - name: update ${{ env.target_branch }} with builded angular app
+      run: |
+        rm -r $page_path/*
+        cp -r $source_path/$build_path/* $page_path
+    
+    - name: Commit
+      run: |
+        cd $page_path
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "new version of the pwa"
+        
+    - name: Push changes to ${{ env.target_branch }} branche
+      uses: ad-m/github-push-action@master
+      with:
+        branch: ${{ env.target_branch }}
+        directory: ${{ env.page_path }}
+        github_access_token: ${{ secrets.ACCESS_TOKEN }}
