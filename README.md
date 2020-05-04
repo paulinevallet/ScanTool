@@ -1,6 +1,12 @@
 # Mailbox
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+## Feature
+- scanner et récupérer un code (numero)
+- générer un code barre a partir d'un code (numero)
+- faire correspondre en cliquant sur ce code barre récupéré les infos liés à ce code barre (grâce à une api)
+- OPTION : faire défiler les codes barres facilement
+- OPTION : récupérer le prix (site carrefour)
+
 
 ## Development server
 
