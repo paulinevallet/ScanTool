@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><base href="/ScanTool/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <title>Scan Tool</title>
+    <script>
+        if ('serviceWorker' in navigator) {
+            console.log("Will the service worker register?");
+            navigator.serviceWorker.register('service-worker.js')
+                .then(function(reg){
+                    console.log("Yes, it did.");
+                }).catch(function(err) {
+                console.log("No it didn't. This happened: ", err)
+            });
+        }
+    </script>
+<link rel="stylesheet" href="styles.3ff695c00d717f2d2a11.css"></head>
+<body>
+<h1>Consultation des codes bars</h1>
+<h2>Mise à jour</h2>
+<p>Liste des codes bars</p>
+<p>Code barre 1</p>
+<p>Code barre 2</p>
+<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="main-es2015.7701005d830841415f6d.js" type="module"></script><script src="main-es5.7701005d830841415f6d.js" nomodule defer></script></body>
+</html>
