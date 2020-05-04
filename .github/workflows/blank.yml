@@ -14,5 +14,5 @@ jobs:
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.2.0
       with:
         github_access_token: ${{ secrets.ACCESS_TOKEN }}
-        build_folder: dist/scantool
+        build_folder: dist/ScanTool
         base_href: /ScanTool/
