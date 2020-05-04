@@ -1,6 +1,6 @@
 {
-  "name": "MailBox",
-  "short_name": "mbox",
+  "name": "Scan Tool",
+  "short_name": "bc",
   "theme_color": "#147bcc",
   "background_color": "#2196f3",
   "display": "standalone",

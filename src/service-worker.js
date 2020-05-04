@@ -1,6 +1,6 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('MailBox').then(function(cache) {
+   caches.open('ScanTool').then(function(cache) {
      return cache.addAll([
        '/',
        '/index.html'
@@ -13,7 +13,7 @@ self.addEventListener('fetch', function(event) {
   console.log(event.request.url);
   event.respondWith(
     fetch(event.request).then(function(response) {
-      caches.open("MailBox").then(function(cache) {
+      caches.open("ScanTool").then(function(cache) {
         cache.match(event.request).then(function (){
               cache.put(event.request, response.clone());
               console.log("cache updated");
