@@ -22,14 +22,13 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/manifest.json"
+              "src/assets/manifest.json",
+              "src/service-workers.js"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "src/service-workers.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
