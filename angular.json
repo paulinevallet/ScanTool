@@ -22,7 +22,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/manifest.json",
+              "src/manifest.json",
               "src/service-workers.js"
             ],
             "styles": [
