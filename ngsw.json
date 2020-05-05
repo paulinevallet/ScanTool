@@ -1,0 +1,108 @@
+{
+  "configVersion": 1,
+  "timestamp": 1588667236853,
+  "index": "/ScanTool/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ScanTool/favicon.ico",
+        "/ScanTool/index.html",
+        "/ScanTool/main-es2015.755be56ccce0662dd34e.js",
+        "/ScanTool/main-es5.755be56ccce0662dd34e.js",
+        "/ScanTool/manifest.webmanifest",
+        "/ScanTool/polyfills-es2015.690002c25ea8557bb4b0.js",
+        "/ScanTool/polyfills-es5.9e286f6d9247438cbb02.js",
+        "/ScanTool/runtime-es2015.1eba213af0b233498d9d.js",
+        "/ScanTool/runtime-es5.1eba213af0b233498d9d.js",
+        "/ScanTool/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ScanTool/assets/icons/icon-128x128.png",
+        "/ScanTool/assets/icons/icon-144x144.png",
+        "/ScanTool/assets/icons/icon-152x152.png",
+        "/ScanTool/assets/icons/icon-192x192.png",
+        "/ScanTool/assets/icons/icon-384x384.png",
+        "/ScanTool/assets/icons/icon-512x512.png",
+        "/ScanTool/assets/icons/icon-72x72.png",
+        "/ScanTool/assets/icons/icon-96x96.png",
+        "/ScanTool/assets/images/icons/apple-touch-icon-180x180.png",
+        "/ScanTool/assets/images/icons/favicon-16x16.png",
+        "/ScanTool/assets/images/icons/favicon-32x32.png",
+        "/ScanTool/assets/images/icons/favicon.ico",
+        "/ScanTool/assets/images/icons/icon-128x128.png",
+        "/ScanTool/assets/images/icons/icon-144x144.png",
+        "/ScanTool/assets/images/icons/icon-152x152.png",
+        "/ScanTool/assets/images/icons/icon-192x192.png",
+        "/ScanTool/assets/images/icons/icon-384x384.png",
+        "/ScanTool/assets/images/icons/icon-512x512.png",
+        "/ScanTool/assets/images/icons/icon-72x72.png",
+        "/ScanTool/assets/images/icons/icon-96x96.png",
+        "/ScanTool/assets/images/icons/image512x512.png",
+        "/ScanTool/assets/images/icons/pwa-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ScanTool/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/ScanTool/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/ScanTool/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/ScanTool/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/ScanTool/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/ScanTool/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/ScanTool/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/ScanTool/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/ScanTool/assets/images/icons/apple-touch-icon-180x180.png": "bee4aa84152b13b58baf7b2996c81c5d1527d582",
+    "/ScanTool/assets/images/icons/favicon-16x16.png": "58195163a13a7988d7bf0e7e4d521a27ad7ee0fa",
+    "/ScanTool/assets/images/icons/favicon-32x32.png": "698be53e494a70db6f2988b70e3950e84dd0a8a1",
+    "/ScanTool/assets/images/icons/favicon.ico": "a3c79b12bb80d7f703b8520697f396f086d17e72",
+    "/ScanTool/assets/images/icons/icon-128x128.png": "33a7ca7e8e3836bfc0e876a817d5c4b0a65399ac",
+    "/ScanTool/assets/images/icons/icon-144x144.png": "01ad86cde52fabb8c4f12264ac9ddba327a15f10",
+    "/ScanTool/assets/images/icons/icon-152x152.png": "9d119bf6b2e8df51114eac84fea48b9576797fdf",
+    "/ScanTool/assets/images/icons/icon-192x192.png": "fc6e633691f163c74bb28f721cdf4657140a3b7d",
+    "/ScanTool/assets/images/icons/icon-384x384.png": "e06606f8c9b326f6ea616e029bc9d3cd8b8f6ca6",
+    "/ScanTool/assets/images/icons/icon-512x512.png": "e06606f8c9b326f6ea616e029bc9d3cd8b8f6ca6",
+    "/ScanTool/assets/images/icons/icon-72x72.png": "16f871f01801915fe993287969178af9bc0389da",
+    "/ScanTool/assets/images/icons/icon-96x96.png": "9eefc05e9f07dd6913f2330182079d5368fa350d",
+    "/ScanTool/assets/images/icons/image512x512.png": "854dc620705efb5462a7ea7d1f1da56eb2c306ef",
+    "/ScanTool/assets/images/icons/pwa-512x512.png": "82de61a15009d6a27899decdd21b65580eefc8d1",
+    "/ScanTool/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/ScanTool/index.html": "ef62e557480b09edd1f31fa8f266a4b008d5d7e6",
+    "/ScanTool/main-es2015.755be56ccce0662dd34e.js": "5b95498ba24f1c111f5b4ffa04937d0067d441dc",
+    "/ScanTool/main-es5.755be56ccce0662dd34e.js": "f2ccf30f55739396cfbb74c0404401260b969753",
+    "/ScanTool/manifest.webmanifest": "3ea10ab95eee225e0c6976d27f16e78ee93df409",
+    "/ScanTool/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/ScanTool/polyfills-es5.9e286f6d9247438cbb02.js": "89222a28dbabb780fc372d33834080e0cd3083d9",
+    "/ScanTool/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/ScanTool/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/ScanTool/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
