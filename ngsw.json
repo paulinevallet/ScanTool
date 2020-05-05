@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1588668693315,
+  "timestamp": 1588669386173,
   "index": "/ScanTool/index.html",
   "assetGroups": [
     {
@@ -77,7 +77,7 @@
     "/ScanTool/assets/images/icons/image512x512.png": "854dc620705efb5462a7ea7d1f1da56eb2c306ef",
     "/ScanTool/assets/images/icons/pwa-512x512.png": "82de61a15009d6a27899decdd21b65580eefc8d1",
     "/ScanTool/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/ScanTool/index.html": "cdc4887f5578efec31a92b2bb09b0cfdb42ec108",
+    "/ScanTool/index.html": "8bf45d843dbf96de6da21b7703cf389c0ef747f9",
     "/ScanTool/main-es2015.6bc26066fb48b0056431.js": "cae6148f42ec15e77f8263a31e6bf565601dbf03",
     "/ScanTool/main-es5.6bc26066fb48b0056431.js": "e2e0c07d6510709a64c48d1ce5f524da63e93e37",
     "/ScanTool/manifest.webmanifest": "3ea10ab95eee225e0c6976d27f16e78ee93df409",
